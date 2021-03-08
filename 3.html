@@ -5,16 +5,56 @@
   <meta charset="utf-8">
 </head>
 <body>
-    <img src="ddsf.png"width="20%">
+    <center><img src="ddsf.png"width="20%">
     <h1><a href="file:///C:/Users/wnsgh/Desktop/web2/index.html"title="첫화면으로 돌아기기">공부 기록장</a></h1>
     <h2>생활코딩-연습장</h2>
+    -center tag를 사용해서 가운데정렬을 해봄.
+  </center>
     <ol>
       <li><a href="1.html">생활코딩-html</a></li>
       <li><a href="2.html">생활코딩-css</a></li>
       <li><a href="3.html">생활코딩-연습장</a></li>
     </ol>
-    <ol>
-      -input type="checkbox"값을 입력하면 체크상자가 만들어진다. = <input type="checkbox">
-    </ol>
+      <p>
+      - input type="checkbox"값을 입력하면 체크상자가 만들어진다. = <input type="checkbox"><br>
+      - 동영상 소스를 옮겨오기만하면 아래와 같이 업로드가 된다. (ex.youtube)<br><iframe width="640" height="360" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+      - 댓글 기능을 추가하기 위해서는 backend 기술 등이 필요한데 만들어진 기술을 따올 수 있음.(ex.DISQUS)<br>
+      - 우측하단과 같이 채팅 기능도 소스만 복사해서 사용가능하다. (ex.tawk사이트)
+    </p>
+
+<p>
+  <div id="disqus_thread"></div>
+<script>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://web1-hqw6083bl5.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/604612d1385de407571dbd84/1f08rj1d0';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>
